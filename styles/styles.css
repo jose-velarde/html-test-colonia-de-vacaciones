@@ -1,6 +1,7 @@
 html,
 body,
 html * {
+  margin: 0px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -8,13 +9,12 @@ h1 {
   font-size: 100px;
   font-weight: 900;
   color: #FFFFFF;
-  margin: 0
+  text-align: center;
 }
 h2 {
   font-size: 64px;
   font-weight: 900;
   color: #E8BE02;
-  margin: 0;
   padding: 16px 0;
 }
 h3 {
@@ -27,15 +27,13 @@ h4, a {
   font-weight: 400;
   color: #FFFFFF;
   padding: 4px;
-  margin: 0;
-  text-decoration: none
+\  text-decoration: none
 }
 
 p, ul {
   font-size: 30px;
   font-weight: 400;
   color: #4F4D53;
-  margin: 0;
   padding: 16px 0;
 }
 nav {
@@ -45,40 +43,29 @@ nav {
 
 .nav-contenido {
   width: 70%;
-  height: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.hero-image {
+.hero-imagen {
   background-image: url("../media/img_hero.png");
-  height: 505px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero-texto {
   background-color: rgba(0,0,0,0.5);
-  padding: 50px;
+  padding: 10px;
   border-radius: 40px;
 }
 
 .articulo-contenido {
   width: 70%;
-  height: 100%;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 16px 0;
 }
 .inscripciones{
   background-image: url("../media/hero2.png");
@@ -90,6 +77,9 @@ nav {
   background-color: rgba(0,0,0,0.5);
   padding: 50px;
   border-radius: 40px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
 .yellow-band {
   height: 12px;
@@ -97,15 +87,12 @@ nav {
 }
 
 footer {
-  width: 100%;
-  padding: 20px;
   background-color: #4F4D53;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
 }
 
-.footer-contenido {
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
+.centrar {
   display: flex;
   flex-direction: column;
   align-items: center;
