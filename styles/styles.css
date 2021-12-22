@@ -1,0 +1,113 @@
+html,
+body,
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0
+}
+h2 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #E8BE02;
+  margin: 0;
+  padding: 16px 0;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #E8BE02;
+}
+h4, a {
+  font-size: 20;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 4px;
+  margin: 0;
+  text-decoration: none
+}
+
+p, ul {
+  font-size: 30px;
+  font-weight: 400;
+  color: #4F4D53;
+  margin: 0;
+  padding: 16px 0;
+}
+nav {
+  height: 48px;
+  background-color: #4F4D53;
+}
+
+.nav-contenido {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.hero-image {
+  background-image: url("../media/img_hero.png");
+  height: 505px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-texto {
+  background-color: rgba(0,0,0,0.5);
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.articulo-contenido {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+.inscripciones{
+  background-image: url("../media/hero2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inscripciones-texto{
+  background-color: rgba(0,0,0,0.5);
+  padding: 50px;
+  border-radius: 40px;
+}
+.yellow-band {
+  height: 12px;
+  background-color: #E8BE02;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #4F4D53;
+}
+
+.footer-contenido {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
